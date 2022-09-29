@@ -1,0 +1,11 @@
+{% extends "base.html" %}
+
+{% block title %}<title>Tili</title>{% endblock %}
+
+{% block content %}
+<p>Etunimi: <strong>{{ user.first_name }}</strong></p>
+<p>Sukunimi: <strong>{{ user.last_name }}</strong></p>
+<p>Organisaatio: <strong>{{ user.organization }}</strong></p>
+<a href="{% url 'logout'%}">Kirjaudu ulos</a>
+
+{% endblock %}
