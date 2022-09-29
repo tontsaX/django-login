@@ -1,3 +1,3 @@
 # django-login
 A small exercise.
-<span style="font-size:2px;">Don't repeat my sins.</span>
+<span style="font-size:2em;">Don't repeat my sins.</span>
